@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'soil.dart';
 import 'package:flutter_gradient_colors/flutter_gradient_colors.dart';
+import 'detail_page.dart';
 
 class SoilCard extends StatelessWidget {
   // const SoilCard({
@@ -22,38 +23,40 @@ class SoilCard extends StatelessWidget {
               borderRadius: BorderRadius.circular(10.0)
           ),
           clipBehavior: Clip.antiAlias,
-            child: Container(
-              decoration: const BoxDecoration(
-                  gradient: LinearGradient(
-                    colors: GradientColors.dustyGrass,
-                  )
-              ),
-              child: Column(
-                children: [
-                  ListTile(
-                    title: Text(soil.title),
-                  ),
+            child: InkWell(
+              child: Container(
+                decoration: const BoxDecoration(
+                    gradient: LinearGradient(
+                      colors: GradientColors.dustyGrass,
+                    )
+                ),
+                child: Column(
+                  children: [
+                    ListTile(
+                      title: Text(soil.title),
+                    ),
 
-                  Container(
-                      height: 175,
-                      width: 300,
-                      child: soil.image
-                  ),
+                    Container(
+                        height: 175,
+                        width: 300,
+                        child: soil.image
+                    ),
 
-                  const SizedBox(
-                    height: 5.0,
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(4.0),
-                    child: Text(
-                      soil.desc,
-                      style: TextStyle(
-                        color: Colors.black.withOpacity(0.6),
-                        fontSize: 15.0,
+                    const SizedBox(
+                      height: 5.0,
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(4.0),
+                      child: Text(
+                        soil.desc,
+                        style: TextStyle(
+                          color: Colors.black.withOpacity(0.6),
+                          fontSize: 15.0,
+                        ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
         ),
