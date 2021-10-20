@@ -35,7 +35,7 @@ Our app also provides several other features such as realtime weather forecasts,
 <h2 align= "left"><b>Have Fun with our Product : </b></h2>
 
 * App Link : [Download Here](https://bit.ly/KissanRakshak)
-* Youtube Demo : [Video Demo](https://youtu.be/dQw4w9WgXcQ)
+* Youtube Demo : [Video Demo](https://youtu.be/y-l8Hd6q7lw)
 
 ##### References(APIs Used) : 
  * Weather API : [Weather](https://openweathermap.org/)
