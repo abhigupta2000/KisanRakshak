@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'soil.dart';
-import 'package:flutter_gradient_colors/flutter_gradient_colors.dart';
 import 'detail_page.dart';
 
 class SoilCard extends StatelessWidget {
@@ -66,18 +66,19 @@ class SoilCard extends StatelessWidget {
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(10.0)
           ),
+          color: Colors.green,
           clipBehavior: Clip.antiAlias,
             child: InkWell(
-              child: Container(
-                decoration: const BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: GradientColors.dustyGrass,
-                    )
-                ),
                 child: Column(
                   children: [
                     ListTile(
-                      title: Text(soil.title),
+                      title: Text(
+                          soil.title,
+                        style: GoogleFonts.poppins(
+                          color: Colors.white,
+                          fontSize: 20.0,
+                        ),
+                      ),
                     ),
 
                     Container(
@@ -89,19 +90,11 @@ class SoilCard extends StatelessWidget {
                     const SizedBox(
                       height: 5.0,
                     ),
-                    Padding(
-                      padding: const EdgeInsets.all(4.0),
-                      child: Text(
-                        soil.desc,
-                        style: TextStyle(
-                          color: Colors.black.withOpacity(0.6),
-                          fontSize: 15.0,
-                        ),
-                      ),
+                    const Padding(
+                      padding: EdgeInsets.fromLTRB(4.0,4.0,4.0,20.0),
                     ),
                   ],
                 ),
-              ),
               onTap: () {
                 Navigator.push(context,
                   MaterialPageRoute(builder: (context) => DetailPage(detail: details[soil.index],)),

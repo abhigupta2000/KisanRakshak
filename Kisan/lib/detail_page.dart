@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'soil.dart';
-import 'package:flutter_gradient_colors/flutter_gradient_colors.dart';
 
 class DetailPage extends StatelessWidget {
 
@@ -11,19 +11,22 @@ class DetailPage extends StatelessWidget {
 
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.green[200],
       appBar: AppBar(
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios),
+          icon: const Icon(
+              Icons.arrow_back_ios,
+          color: Colors.black,),
           onPressed: () => Navigator.of(context).pop(),
         ),
         title: Text(
           detail.name,
           style: const TextStyle(
             fontSize: 25.0,
+            color: Colors.black
           ),
         ),
-        backgroundColor: Colors.lightGreen,
-        centerTitle: true,
+        backgroundColor: Colors.green[200],
         elevation: 0.0,
       ),
       body: SingleChildScrollView(
@@ -45,28 +48,28 @@ class DetailPage extends StatelessWidget {
 
                 Card(
                   elevation: 10.0,
+                  color: Colors.green,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.0)
                   ),
-                  child: Container(
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                        gradient: LinearGradient(
-                          colors: GradientColors.lemonGate,
-                        )
-                    ),
                     child: Column(
                       children: [
-                        const ListTile(
-                          title: Text('About:'),
+                        ListTile(
+                          title: Text(
+                              'About:',
+                            style: GoogleFonts.poppins(
+                              color: Colors.black,
+                              fontSize: 15.0,
+                            ),
+                          ),
                         ),
 
                         Padding(
-                          padding: const EdgeInsets.all(4.0),
+                          padding: const EdgeInsets.fromLTRB(8.0,0.0,8.0,8.0),
                           child: Text(
                             detail.about,
-                            style: TextStyle(
-                              color: Colors.black.withOpacity(0.6),
+                            style: GoogleFonts.poppins(
+                              color: Colors.white,
                               fontSize: 15.0,
                             ),
                           ),
@@ -74,7 +77,6 @@ class DetailPage extends StatelessWidget {
                       ],
                     ),
                   ),
-                ),
 
                 const SizedBox(
                   height: 10.0,
@@ -82,28 +84,28 @@ class DetailPage extends StatelessWidget {
 
                 Card(
                   elevation: 10.0,
+                  color: Colors.green,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.0)
                   ),
-                  child: Container(
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                        gradient: LinearGradient(
-                          colors: GradientColors.overSun,
-                        )
-                    ),
                     child: Column(
                       children: [
-                        const ListTile(
-                          title: Text('Found in:'),
+                        ListTile(
+                          title: Text(
+                              'Found in:',
+                            style: GoogleFonts.poppins(
+                              color: Colors.black,
+                              fontSize: 15.0,
+                            ),
+                          ),
                         ),
 
                         Padding(
-                          padding: const EdgeInsets.all(4.0),
+                          padding: const EdgeInsets.fromLTRB(8.0,0.0,8.0,8.0),
                           child: Text(
                             detail.found,
-                            style: TextStyle(
-                              color: Colors.black.withOpacity(0.6),
+                            style: GoogleFonts.poppins(
+                              color: Colors.white,
                               fontSize: 15.0,
                             ),
                           ),
@@ -111,7 +113,6 @@ class DetailPage extends StatelessWidget {
                       ],
                     ),
                   ),
-                ),
 
                 const SizedBox(
                   height: 10.0,
@@ -119,28 +120,28 @@ class DetailPage extends StatelessWidget {
 
                 Card(
                   elevation: 10.0,
+                  color: Colors.green,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.0)
                   ),
-                  child: Container(
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                        gradient: LinearGradient(
-                          colors: GradientColors.happyUnicorn,
-                        )
-                    ),
                     child: Column(
                       children: [
-                        const ListTile(
-                          title: Text('Characteristics:'),
+                        ListTile(
+                          title: Text(
+                              'Characteristics:',
+                            style: GoogleFonts.poppins(
+                              color: Colors.black,
+                              fontSize: 15.0,
+                            ),
+                          ),
                         ),
 
                         Padding(
-                          padding: const EdgeInsets.all(4.0),
+                          padding: const EdgeInsets.fromLTRB(8.0,0.0,8.0,8.0),
                           child: Text(
                             detail.character,
-                            style: TextStyle(
-                              color: Colors.black.withOpacity(0.6),
+                            style: GoogleFonts.poppins(
+                              color: Colors.white,
                               fontSize: 15.0,
                             ),
                           ),
@@ -148,7 +149,6 @@ class DetailPage extends StatelessWidget {
                       ],
                     ),
                   ),
-                ),
 
                 const SizedBox(
                   height: 10.0,
@@ -156,28 +156,28 @@ class DetailPage extends StatelessWidget {
 
                 Card(
                   elevation: 10.0,
+                  color: Colors.green,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.0)
                   ),
-                  child: Container(
-                    decoration: const BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                        gradient: LinearGradient(
-                          colors: GradientColors.youngGrass,
-                        )
-                    ),
                     child: Column(
                       children: [
-                        const ListTile(
-                          title: Text('Suitable Crops:'),
+                        ListTile(
+                          title: Text(
+                              'Suitable Crops:',
+                            style: GoogleFonts.poppins(
+                              color: Colors.black,
+                              fontSize: 15.0,
+                            ),
+                          ),
                         ),
 
                         Padding(
-                          padding: const EdgeInsets.all(4.0),
+                          padding: const EdgeInsets.fromLTRB(8.0,0.0,8.0,8.0),
                           child: Text(
                             detail.crop,
-                            style: TextStyle(
-                              color: Colors.black.withOpacity(0.6),
+                            style: GoogleFonts.poppins(
+                              color: Colors.white,
                               fontSize: 15.0,
                             ),
                           ),
@@ -185,7 +185,7 @@ class DetailPage extends StatelessWidget {
                       ],
                     ),
                   ),
-                ),
+
               ],
             ),
           ),
