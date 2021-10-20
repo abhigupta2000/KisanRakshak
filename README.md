@@ -32,12 +32,12 @@ Our app also provides several other features such as realtime weather forecasts,
 
 <h2 align= "left"><b>Have Fun with our Product : </b></h2>
 
-App Link : [Download Here](https://tinyurl.com/KisanRakshak)
-Youtube Demo : [Video Demo](https://youtu.be/dQw4w9WgXcQ)
+* App Link : [Download Here](https://tinyurl.com/KisanRakshak)
+* Youtube Demo : [Video Demo](https://youtu.be/dQw4w9WgXcQ)
 
 ##### References(APIs Used) : 
- Weather API : [Weather](https://openweathermap.org/)
- Flask Backend(Made by Team) : [API](http://suvoo.pythonanywhere.com/)
+ * Weather API : [Weather](https://openweathermap.org/)
+ * Flask Backend(Made by Team) : [API](http://suvoo.pythonanywhere.com/)
 
 
 <h2 align= "left"><b>Tech Stack Used : </b></h2>
