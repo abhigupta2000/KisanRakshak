@@ -1,5 +1,5 @@
+import 'package:bitbybithackathon/navbar.dart';
 import 'package:flutter/material.dart';
-import 'package:kisanrakshak/navbar.dart';
 
 void main() {
   runApp(MyApp());

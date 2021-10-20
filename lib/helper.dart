@@ -79,19 +79,19 @@ class HelperState extends State<Helper> {
               ),
             ),
           ),
-          Padding(
-            padding: EdgeInsets.all(5),
-            child: Align(
+           Padding(
+             padding: EdgeInsets.all(5),
+             child: Align(
                 alignment: Alignment.topRight,
                 child: ElevatedButton(
-                  onPressed: (){
-                    count=2;
-                    setState(() {
-                    });
-                  }, child: Text('OK'),
-                )
-            ),
-          )
+                onPressed: (){
+                  count=2;
+                  setState(() {
+                  });
+                }, child: Text('OK'),
+                         )
+                         ),
+           )
         ],
       ),
       Column(
@@ -206,8 +206,8 @@ class HelperState extends State<Helper> {
                 height: 50,
                 width: 150,
                 decoration: BoxDecoration(
-                    color: Colors.grey[300],
-                    borderRadius: BorderRadius.circular(15)
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.circular(15)
                 ),
                 child: Padding(
                   padding: EdgeInsets.all(5),
@@ -280,24 +280,24 @@ class HelperState extends State<Helper> {
               ],
             ),
           ),
-          Align(
+           Align(
             alignment: Alignment.topRight,
             child: Padding(
               padding: EdgeInsets.all(8),
               child: Container(
-                  width: 120,
-                  height: 50,
-                  decoration: BoxDecoration(
-                      color: Colors.grey[300],
-                      borderRadius: BorderRadius.circular(15)
-                  ),
+                width: 120,
+                height: 50,
+                decoration: BoxDecoration(
+                  color: Colors.grey[300],
+                  borderRadius: BorderRadius.circular(15)
+                ),
                   padding: EdgeInsets.all(10),
                   child: TextField(
                     onChanged: (value){
                       pesticide_count=int.parse(value);
                     },
                   )
-              ),
+                ),
             ),
           ),
           Padding(
@@ -390,8 +390,8 @@ class HelperState extends State<Helper> {
         ],
       ),
     ];
-    Size size=MediaQuery.of(context).size;
-    var height=size.height;
+     Size size=MediaQuery.of(context).size;
+     var height=size.height;
     // TODO: implement build
     return  Scaffold(
       backgroundColor: Colors.green,
@@ -405,7 +405,7 @@ class HelperState extends State<Helper> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const CircleAvatar(
+                    const CircleAvatar(
                     radius: 55,
                     backgroundColor: Colors.white,
                     backgroundImage: AssetImage('assets/kisan_helper.jpg',),
@@ -420,34 +420,34 @@ class HelperState extends State<Helper> {
           ),
           Expanded(
             child: Container(
-                height: height-275-80,
-                width: size.width,
-                decoration: const BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.only(topLeft: Radius.circular(40))
-                ),
-                child:ListView.builder(
-                  physics: const BouncingScrollPhysics(),
-                  itemCount: count,
-                  itemBuilder: (context,index){
-                    return questions[index];
-                  },
-                )
+              height: height-275-80,
+              width: size.width,
+              decoration: const BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.only(topLeft: Radius.circular(40))
+              ),
+              child:ListView.builder(
+                 physics: const BouncingScrollPhysics(),
+                 itemCount: count,
+                itemBuilder: (context,index){
+                   return questions[index];
+                },
+              )
             ),
           ),
-          Container(
+           Container(
             color: Colors.white,
             height: 80,
           ),
         ],
       ):(result==false)?const CircularProgressIndicator():
-      Container(
-          height: height,
-          width: size.width,
-          color: Colors.white,
-          child: Column(
-            children: [
-              Container(
+          Container(
+            height: height,
+            width: size.width,
+            color: Colors.white,
+            child: Column(
+              children: [
+                Container(
                   height: 250,
                   width: size.width,
                   color: Colors.green,
@@ -470,17 +470,17 @@ class HelperState extends State<Helper> {
                       Text('Results',style:GoogleFonts.poppins(fontSize: 36,color: Colors.white),),
                     ],
                   )),
-              const SizedBox(
-                height: 60,
-              ),
-              SizedBox(
-                  height: 300,
-                  child: Image.asset(getAsset(ans),fit: BoxFit.fill,)),
-              const SizedBox(height: 15,),
-              Text(getText(ans),textAlign:TextAlign.center,style: GoogleFonts.poppins(fontSize: 26,fontWeight: FontWeight.w600),),
-            ],
-          )
-      ),
+                const SizedBox(
+                  height: 60,
+                ),
+                SizedBox(
+                    height: 300,
+                    child: Image.asset(getAsset(ans),fit: BoxFit.fill,)),
+                const SizedBox(height: 15,),
+                Text(getText(ans),textAlign:TextAlign.center,style: GoogleFonts.poppins(fontSize: 26,fontWeight: FontWeight.w600),),
+              ],
+            )
+          ),
     );
   }
   Future<int> getData() async
@@ -488,17 +488,17 @@ class HelperState extends State<Helper> {
     Random random = new Random();
     int a1,a2,a3;
     if(pesticide_count==0)
-    {
-      a1=1;a2=0;a3=0;
-    }
+      {
+        a1=1;a2=0;a3=0;
+      }
     else if(pesticide_count==1)
-    {
-      a1=0;a2=1;a3=0;
-    }
+      {
+        a1=0;a2=1;a3=0;
+      }
     else
-    {
-      a1=0;a2=0;a3=1;
-    }
+      {
+        a1=0;a2=0;a3=1;
+      }
     final url = Uri.parse('http://suvoo.pythonanywhere.com/predict?a=${random.nextInt(4097-150) + 150}&b=$type_of_crop&c=$soil_type&d=$pesticide_count&e=$pesticide_week&f=${random.nextInt(50)}&g=$a1&h=$a2&i=$a3&k=0&l=1&m=0');
     final headers = {"Content-type": "application/json"};
     final json = '{"a"=${random.nextInt(4097-150) + 150}&"b"=$type_of_crop&"c"=$soil_type&"d"=$pesticide_count&"e"=$pesticide_week&"f"=${random.nextInt(50)}&"g"=1&"h"=2&"i"=3&"k=1&"l"=2&"m"=3}';
@@ -509,26 +509,26 @@ class HelperState extends State<Helper> {
   }
   String getAsset(int ans) {
     if(ans==0)
-    {
-      return "assets/plant_happy.png";
-    }
+      {
+        return "assets/plant_happy.png";
+      }
     else
-    {
-      return "assets/plant_sad.png";
-    }
+      {
+        return "assets/plant_sad.png";
+      }
   }
   String getText(int ans) {
     if(ans==0)
-    {
-      return "Your crop is Healthy!!";
-    }
+      {
+        return "Your crop is Healthy!!";
+      }
     else if(ans==1)
-    {
-      return "Your crop may be damaged due to some causes";
-    }
+      {
+        return "Your crop may be damaged due to some causes";
+      }
     else
-    {
-      return "Your crop is damaged due to overuse of pesticide";
-    }
+      {
+        return "Your crop is damaged due to overuse of pesticide";
+      }
   }
 }
