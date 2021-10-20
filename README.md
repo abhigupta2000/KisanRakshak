@@ -21,6 +21,8 @@ Our app also provides several other features such as realtime weather forecasts,
 
 ## Preview : 
 
+<p align="left"><img width=25% src="Assets/Kisan.jpg"></p>
+
 <p align="left">
 <img width=20% src="Assets/ScreenshotApp1.jpg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 <img width=20% src="Assets/ScreenshotApp2.jpg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 
@@ -45,7 +47,6 @@ Our app also provides several other features such as realtime weather forecasts,
 *App*
 
 - Flutter,Dart
-
 - Android Studio
 
 *Machine Learning*
