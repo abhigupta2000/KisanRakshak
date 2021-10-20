@@ -274,7 +274,7 @@ class HelperState extends State<Helper> {
                       color: Colors.green,
                       borderRadius: BorderRadius.only(topLeft: Radius.circular(25),bottomRight: Radius.circular(25)),
                     ),
-                    child:  Center(child: Text('Pesticide count in a week?',style: GoogleFonts.poppins(color: Colors.white,fontSize: 16),),),
+                    child:  Center(child: Text('Pesticide count in a week? (0-100)',style: GoogleFonts.poppins(color: Colors.white,fontSize: 16),),),
                   ),
                 ),
               ],
@@ -293,7 +293,11 @@ class HelperState extends State<Helper> {
                 ),
                   padding: EdgeInsets.all(10),
                   child: TextField(
+                    keyboardType: TextInputType.number,
                     onChanged: (value){
+                      setState(() {
+
+                      });
                       pesticide_count=int.parse(value);
                     },
                   )
@@ -358,8 +362,11 @@ class HelperState extends State<Helper> {
                   ),
                   padding: EdgeInsets.all(10),
                   child: TextField(
+                    keyboardType: TextInputType.number,
                     onChanged: (value){
-                      pesticide_count=int.parse(value);
+                      setState(() {
+                        pesticide_week=double.parse(value);
+                      });
                     },
                   )
               ),
@@ -371,9 +378,9 @@ class HelperState extends State<Helper> {
                 alignment: Alignment.topCenter,
                 child: GestureDetector(
                   onTap: () async {
-                    //isLoading=true;
-                    //ans=await getData();
-                   // result=true;
+                    isLoading=true;
+                    ans=await getData();
+                    result=true;
                     setState(() {
 
                     });
@@ -464,7 +471,7 @@ class HelperState extends State<Helper> {
                             ),
                           ),
                           const SizedBox(width: 10,),
-                          Expanded(child: Text('Kisan Helper has calculated and here are the results!',style: GoogleFonts.poppins(fontSize: 16,color: Colors.white),)),
+                          Expanded(child: Text('Kisan Sahayak has calculated and here are the results!',style: GoogleFonts.poppins(fontSize: 16,color: Colors.white),)),
                         ],
                       ),
                       Text('Results',style:GoogleFonts.poppins(fontSize: 36,color: Colors.white),),
@@ -499,12 +506,15 @@ class HelperState extends State<Helper> {
       {
         a1=0;a2=0;a3=1;
       }
-    final url = Uri.parse('http://suvoo.pythonanywhere.com/predict?a=${random.nextInt(4097-150) + 150}&b=$type_of_crop&c=$soil_type&d=$pesticide_count&e=$pesticide_week&f=${random.nextInt(50)}&g=$a1&h=$a2&i=$a3&k=0&l=1&m=0');
+    print(pesticide_week);
+    final url = Uri.parse('http://suvoo.pythonanywhere.com/predict?a=1575&b=$type_of_crop&c=$soil_type&d=$pesticide_count&e=$pesticide_week&f=${random.nextInt(50)}&g=$a1&h=$a2&i=$a3&k=0&l=0&m=1');
+    print(url);
     final headers = {"Content-type": "application/json"};
     final json = '{"a"=${random.nextInt(4097-150) + 150}&"b"=$type_of_crop&"c"=$soil_type&"d"=$pesticide_count&"e"=$pesticide_week&"f"=${random.nextInt(50)}&"g"=1&"h"=2&"i"=3&"k=1&"l"=2&"m"=3}';
     final response = await get(url,);
     print('Status code: ${response.statusCode}');
     print('Body: ${response.body}');
+    print(int.parse(response.body[1]));
     return int.parse(response.body[1]);
   }
   String getAsset(int ans) {
@@ -524,7 +534,7 @@ class HelperState extends State<Helper> {
       }
     else if(ans==1)
       {
-        return "Your crop may be damaged due to some causes";
+        return "Your crop may be damaged";
       }
     else
       {

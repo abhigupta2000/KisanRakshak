@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bitbybithackathon">
-    ackage="com.example.featured_app">
+    <uses-permission android:name="android.permission.INTERNET"/>
     <queries>
         <intent>
             <action android:name="android.intent.action.VIEW" />
@@ -19,7 +19,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
    <application
-        android:label="bitbybithackathon"
+        android:label="Kisan Rakshak"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

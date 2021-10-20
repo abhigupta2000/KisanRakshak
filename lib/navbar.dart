@@ -22,7 +22,7 @@ class KisanRakshakState extends State<KisanRakshak> {
   int currentIndex = 0;
   final List<Widget> _pages=[
     Weather(),
-    Soil(),
+    SoilList(),
     Helper(),
     Tips(),
     AboutUs(),
@@ -37,7 +37,7 @@ class KisanRakshakState extends State<KisanRakshak> {
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.green[200],
       body: Stack(
         children: [
           Center(
@@ -63,7 +63,7 @@ class KisanRakshakState extends State<KisanRakshak> {
                         child: FloatingActionButton(backgroundColor: Colors.green, child: Icon(FontAwesomeIcons.gitlab), elevation: 0.1, onPressed: () {setBottomBarIndex(2);}),
                       ),
                       SizedBox(height: 26,),
-                      Text('Kisan Sahayak',style: GoogleFonts.getFont('Didact Gothic',color:Colors.white,fontWeight: FontWeight.bold,fontSize: 14),)
+                      Text('Sahayak ',style: GoogleFonts.getFont('Didact Gothic',color:Colors.white,fontWeight: FontWeight.bold,fontSize: 14),)
                     ],
                   ),
                   Container(
