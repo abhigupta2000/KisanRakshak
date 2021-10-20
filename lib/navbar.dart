@@ -63,7 +63,7 @@ class KisanRakshakState extends State<KisanRakshak> {
                         child: FloatingActionButton(backgroundColor: Colors.green, child: Icon(FontAwesomeIcons.gitlab), elevation: 0.1, onPressed: () {setBottomBarIndex(2);}),
                       ),
                       SizedBox(height: 26,),
-                      Text('Pesticide',style: GoogleFonts.getFont('Didact Gothic',color:Colors.white,fontWeight: FontWeight.bold,fontSize: 14),)
+                      Text('Kisan Sahayak',style: GoogleFonts.getFont('Didact Gothic',color:Colors.white,fontWeight: FontWeight.bold,fontSize: 14),)
                     ],
                   ),
                   Container(
@@ -99,7 +99,7 @@ class KisanRakshakState extends State<KisanRakshak> {
                                 onPressed: () {
                                   setBottomBarIndex(1);
                                 }),
-                            Text('Soil Quality',style: GoogleFonts.didactGothic(fontSize: 14,color: currentIndex == 1 ?Colors.white:Colors.black),)
+                            Text('Soilpedia',style: GoogleFonts.didactGothic(fontSize: 14,color: currentIndex == 1 ?Colors.white:Colors.black),)
                           ],
                         ),
                         Container(

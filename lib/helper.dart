@@ -371,9 +371,9 @@ class HelperState extends State<Helper> {
                 alignment: Alignment.topCenter,
                 child: GestureDetector(
                   onTap: () async {
-                    isLoading=true;
-                    ans=await getData();
-                    result=true;
+                    //isLoading=true;
+                    //ans=await getData();
+                   // result=true;
                     setState(() {
 
                     });
@@ -413,7 +413,7 @@ class HelperState extends State<Helper> {
                   const SizedBox(
                     height: 10,
                   ),
-                  Text('Kisan Helper',style: GoogleFonts.poppins(color: Colors.white,fontSize:32),)
+                  Text('Kisan Sahayak',style: GoogleFonts.poppins(color: Colors.white,fontSize:32),)
                 ],
               ),
             ),
