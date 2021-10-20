@@ -1,0 +1,4 @@
+#Wed Oct 20 20:09:39 IST 2021
+base.0=D\:\\AndroidStudioProjects\\bitbybithackathon\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

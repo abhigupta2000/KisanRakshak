@@ -1,0 +1,230 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:1:1-59:12
+INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:1:1-59:12
+INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:1:1-59:12
+INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:1:1-59:12
+MERGED from [:geolocator_android] D:\AndroidStudioProjects\bitbybithackathon\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] D:\AndroidStudioProjects\bitbybithackathon\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider] D:\AndroidStudioProjects\bitbybithackathon\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\340206bb4856bf61e48bd10632b21882\jetified-play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\792892a7083917130fbc18623188f241\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\953f01bd1c1ba965762327dfde85b8cc\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\eb26273f8f7192460456ce62b9bdf9ef\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d9536c14ffde0b7289f12ba6def6bfa4\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bc28a09d8d2212ffd5788fe6c1853326\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ca6b214160bd0909b103aa12202ef51c\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2271d874344878e62b9a8e309af0c39d\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\fb333fb43575d8a3b51161295454427f\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\cad25976877a6ae855ef6821534f58a1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5f606c30f064eed94124828de37fadc0\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\96aee308bccd03bc62c306516c23a410\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\15792e6083b2b5b5a7ffa285d47daa24\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:1:1-59:12
+INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:1:1-59:12
+INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:1:1-59:12
+	package
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:2:5-44
+		INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:1:1-59:12
+		INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:1:1-59:12
+		INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:3:5-66
+	android:name
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:3:22-64
+queries
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:4:5-17:15
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:5:9-8:18
+action#android.intent.action.VIEW
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:6:13-65
+	android:name
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:6:21-62
+data
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:7:13-44
+	android:scheme
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:7:19-41
+	android:mimeType
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:15:19-41
+intent#action:name:android.intent.action.DIAL+data:scheme:tel
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:9:9-12:18
+action#android.intent.action.DIAL
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:10:13-65
+	android:name
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:10:21-62
+intent#action:name:android.intent.action.SEND+data:mimeType:*/*
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:13:9-16:18
+action#android.intent.action.SEND
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:14:13-65
+	android:name
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:14:21-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:20:5-85
+	android:name
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:20:22-82
+application
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:21:4-58:19
+MERGED from [:url_launcher] D:\AndroidStudioProjects\bitbybithackathon\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] D:\AndroidStudioProjects\bitbybithackathon\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\340206bb4856bf61e48bd10632b21882\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\340206bb4856bf61e48bd10632b21882\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\792892a7083917130fbc18623188f241\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\792892a7083917130fbc18623188f241\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\953f01bd1c1ba965762327dfde85b8cc\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\953f01bd1c1ba965762327dfde85b8cc\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\96aee308bccd03bc62c306516c23a410\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\96aee308bccd03bc62c306516c23a410\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:22:9-38
+	android:icon
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:23:9-43
+activity#com.example.bitbybithackathon.MainActivity
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:24:9-52:20
+	android:launchMode
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:26:13-43
+	android:hardwareAccelerated
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:29:13-47
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:30:13-55
+	android:configChanges
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:28:13-163
+	android:theme
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:27:13-47
+	android:name
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:25:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:35:13-38:17
+	android:resource
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:37:15-52
+	android:name
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:36:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:44:13-47:17
+	android:resource
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:46:15-61
+	android:name
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:45:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:48:13-51:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:49:17-68
+	android:name
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:49:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:50:17-76
+	android:name
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:50:27-74
+meta-data#flutterEmbedding
+ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:55:9-57:33
+	android:value
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:57:13-30
+	android:name
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:56:13-44
+uses-sdk
+INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+MERGED from [:geolocator_android] D:\AndroidStudioProjects\bitbybithackathon\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] D:\AndroidStudioProjects\bitbybithackathon\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] D:\AndroidStudioProjects\bitbybithackathon\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] D:\AndroidStudioProjects\bitbybithackathon\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] D:\AndroidStudioProjects\bitbybithackathon\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] D:\AndroidStudioProjects\bitbybithackathon\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\340206bb4856bf61e48bd10632b21882\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\340206bb4856bf61e48bd10632b21882\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\792892a7083917130fbc18623188f241\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\792892a7083917130fbc18623188f241\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\953f01bd1c1ba965762327dfde85b8cc\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\953f01bd1c1ba965762327dfde85b8cc\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2fd9120a6da4df3dbabdd40f6a2d8995\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\eb26273f8f7192460456ce62b9bdf9ef\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\eb26273f8f7192460456ce62b9bdf9ef\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d9536c14ffde0b7289f12ba6def6bfa4\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d9536c14ffde0b7289f12ba6def6bfa4\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\68dbf8ea01a1dbd974fc87b5753550f0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bc28a09d8d2212ffd5788fe6c1853326\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\bc28a09d8d2212ffd5788fe6c1853326\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ca6b214160bd0909b103aa12202ef51c\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ca6b214160bd0909b103aa12202ef51c\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2271d874344878e62b9a8e309af0c39d\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2271d874344878e62b9a8e309af0c39d\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\fb333fb43575d8a3b51161295454427f\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\fb333fb43575d8a3b51161295454427f\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\cad25976877a6ae855ef6821534f58a1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\cad25976877a6ae855ef6821534f58a1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5f606c30f064eed94124828de37fadc0\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5f606c30f064eed94124828de37fadc0\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\96aee308bccd03bc62c306516c23a410\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\96aee308bccd03bc62c306516c23a410\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\15792e6083b2b5b5a7ffa285d47daa24\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\15792e6083b2b5b5a7ffa285d47daa24\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] D:\AndroidStudioProjects\bitbybithackathon\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] D:\AndroidStudioProjects\bitbybithackathon\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] D:\AndroidStudioProjects\bitbybithackathon\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] D:\AndroidStudioProjects\bitbybithackathon\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
