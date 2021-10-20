@@ -1,10 +1,11 @@
-import 'package:bitbybithackathon/teaminfo.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
+
+import 'teaminfo.dart';
 
 class AboutUs extends StatefulWidget
 {

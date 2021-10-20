@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.bitbybithackathon"
+3    package="com.example.finbitbybit"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -12,146 +12,147 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:3:5-66
-14-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:3:22-64
-15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:18:5-79
-15-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:18:22-76
-16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-16-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:19:5-81
-16-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:19:22-78
-17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-17-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:20:5-85
-17-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:20:22-82
-18
-19    <queries>
-19-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:4:5-17:15
-20        <intent>
-20-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:5:9-8:18
-21            <action android:name="android.intent.action.VIEW" />
-21-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:6:13-65
-21-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:6:21-62
-22
-23            <data android:scheme="https" />
-23-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:7:13-44
-23-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:7:19-41
-24        </intent>
-25        <intent>
-25-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:9:9-12:18
-26            <action android:name="android.intent.action.DIAL" />
-26-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:10:13-65
-26-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:10:21-62
-27
-28            <data android:scheme="tel" />
-28-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:7:13-44
-28-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:7:19-41
-29        </intent>
-30        <intent>
-30-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:13:9-16:18
-31            <action android:name="android.intent.action.SEND" />
-31-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:14:13-65
-31-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:14:21-62
-32
-33            <data android:mimeType="*/*" />
-33-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:7:13-44
-34        </intent>
-35    </queries>
-36
-37    <application
-37-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:21:4-58:19
-38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-38-->[androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:24:18-86
-39        android:debuggable="true"
-40        android:icon="@mipmap/ic_launcher"
-40-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:23:9-43
-41        android:label="Kisan Rakshak" >
-41-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:22:9-38
-42        <activity
-42-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:24:9-52:20
-43            android:name="com.example.bitbybithackathon.MainActivity"
-43-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:25:13-41
-44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-44-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:28:13-163
-45            android:hardwareAccelerated="true"
-45-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:29:13-47
-46            android:launchMode="singleTop"
-46-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:26:13-43
-47            android:theme="@style/LaunchTheme"
-47-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:27:13-47
-48            android:windowSoftInputMode="adjustResize" >
-48-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:30:13-55
-49
-50            <!--
-51                 Specifies an Android theme to apply to this Activity as soon as
-52                 the Android process has started. This theme is visible to the user
-53                 while the Flutter UI initializes. After that, this theme continues
-54                 to determine the Window background behind the Flutter UI.
-55            -->
-56            <meta-data
-56-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:35:13-38:17
-57                android:name="io.flutter.embedding.android.NormalTheme"
-57-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:36:15-70
-58                android:resource="@style/NormalTheme" />
-58-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:37:15-52
-59            <!--
-60                 Displays an Android View that continues showing the launch screen
-61                 Drawable until Flutter paints its first frame, then this splash
-62                 screen fades out. A splash screen is useful to avoid any visual
-63                 gap between the end of Android's launch screen and the painting of
-64                 Flutter's first frame.
-65            -->
-66            <meta-data
-66-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:44:13-47:17
-67                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-67-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:45:15-79
-68                android:resource="@drawable/launch_background" />
-68-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:46:15-61
-69
-70            <intent-filter>
-70-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:48:13-51:29
-71                <action android:name="android.intent.action.MAIN" />
-71-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:49:17-68
-71-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:49:25-66
-72
-73                <category android:name="android.intent.category.LAUNCHER" />
-73-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:50:17-76
-73-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:50:27-74
-74            </intent-filter>
-75        </activity>
-76        <!--
-77             Don't delete the meta-data below.
-78             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-79        -->
-80        <meta-data
-80-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:55:9-57:33
-81            android:name="flutterEmbedding"
-81-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:56:13-44
-82            android:value="2" />
-82-->D:\AndroidStudioProjects\bitbybithackathon\android\app\src\main\AndroidManifest.xml:57:13-30
-83
-84        <activity
-84-->[:url_launcher] D:\AndroidStudioProjects\bitbybithackathon\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
-85            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-85-->[:url_launcher] D:\AndroidStudioProjects\bitbybithackathon\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
-86            android:exported="false"
-86-->[:url_launcher] D:\AndroidStudioProjects\bitbybithackathon\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
-87            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-87-->[:url_launcher] D:\AndroidStudioProjects\bitbybithackathon\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
-88        <activity
-88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-90            android:exported="false"
-90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-92
-93        <meta-data
-93-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-94            android:name="com.google.android.gms.version"
-94-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-95            android:value="@integer/google_play_services_version" />
-95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-96    </application>
-97
-98</manifest>
+14-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:3:9-70
+14-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:3:26-68
+15
+16    <queries>
+16-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:4:9-17:19
+17        <intent>
+17-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:5:13-8:22
+18            <action android:name="android.intent.action.VIEW" />
+18-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:6:17-69
+18-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:6:25-66
+19
+20            <data android:scheme="https" />
+20-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:7:17-48
+20-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:7:23-45
+21        </intent>
+22        <intent>
+22-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:9:13-12:22
+23            <action android:name="android.intent.action.DIAL" />
+23-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:10:17-69
+23-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:10:25-66
+24
+25            <data android:scheme="tel" />
+25-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:7:17-48
+25-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:7:23-45
+26        </intent>
+27        <intent>
+27-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:13:13-16:22
+28            <action android:name="android.intent.action.SEND" />
+28-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:14:17-69
+28-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:14:25-66
+29
+30            <data android:mimeType="*/*" />
+30-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:7:17-48
+31        </intent>
+32    </queries>
+33
+34    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+34-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:18:9-83
+34-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:18:26-80
+35    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+35-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:19:9-85
+35-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:19:26-82
+36    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+36-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:20:9-89
+36-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:20:26-86
+37
+38    <application
+38-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:21:4-58:19
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:23:9-43
+42        android:label="Kisan Rakshak" >
+42-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:22:9-38
+43        <activity
+43-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:24:9-52:20
+44            android:name="com.example.finbitbybit.MainActivity"
+44-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:25:13-41
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+45-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:28:13-163
+46            android:hardwareAccelerated="true"
+46-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:29:13-47
+47            android:launchMode="singleTop"
+47-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:26:13-43
+48            android:theme="@style/LaunchTheme"
+48-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:27:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:30:13-55
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+57-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:35:13-38:17
+58                android:name="io.flutter.embedding.android.NormalTheme"
+58-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:36:15-70
+59                android:resource="@style/NormalTheme" />
+59-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:37:15-52
+60            <!--
+61                 Displays an Android View that continues showing the launch screen
+62                 Drawable until Flutter paints its first frame, then this splash
+63                 screen fades out. A splash screen is useful to avoid any visual
+64                 gap between the end of Android's launch screen and the painting of
+65                 Flutter's first frame.
+66            -->
+67            <meta-data
+67-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:44:13-47:17
+68                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+68-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:45:15-79
+69                android:resource="@drawable/launch_background" />
+69-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:46:15-61
+70
+71            <intent-filter>
+71-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:48:13-51:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:49:17-68
+72-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:49:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:50:17-76
+74-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:50:27-74
+75            </intent-filter>
+76        </activity>
+77        <!--
+78             Don't delete the meta-data below.
+79             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+80        -->
+81        <meta-data
+81-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:55:9-57:33
+82            android:name="flutterEmbedding"
+82-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:56:13-44
+83            android:value="2" />
+83-->D:\AndroidStudioProjects\finbitbybit\android\app\src\main\AndroidManifest.xml:57:13-30
+84
+85        <activity
+85-->[:url_launcher] D:\AndroidStudioProjects\finbitbybit\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+86            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+86-->[:url_launcher] D:\AndroidStudioProjects\finbitbybit\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+87            android:exported="false"
+87-->[:url_launcher] D:\AndroidStudioProjects\finbitbybit\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+88            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+88-->[:url_launcher] D:\AndroidStudioProjects\finbitbybit\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+89        <activity
+89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7c879cb157fab2c9a5d74c3d70fd64e3\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3c8e7eb3d21ac94d08f658f6d8a1c9f3\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+97    </application>
+98
+99</manifest>

@@ -1,12 +1,13 @@
-import 'package:bitbybithackathon/about_us.dart';
-import 'package:bitbybithackathon/helper.dart';
-import 'package:bitbybithackathon/soil.dart';
-import 'package:bitbybithackathon/tips.dart';
-import 'package:bitbybithackathon/weather.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import 'about_us.dart';
+import 'helper.dart';
+import 'soil.dart';
+import 'tips.dart';
+import 'weather.dart';
 
 class KisanRakshak extends StatefulWidget
 {

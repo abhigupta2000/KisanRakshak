@@ -1,6 +1,7 @@
-import 'package:bitbybithackathon/soil_card.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import 'soil_card.dart';
 
 class SoilList extends StatefulWidget {
   const SoilList({Key? key}) : super(key: key);
