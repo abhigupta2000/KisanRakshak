@@ -34,7 +34,8 @@ Our app also provides several other features such as realtime weather forecasts,
 
 <h2 align= "left"><b>Have Fun with our Product : </b></h2>
 
-* App Link : [Download Here](https://bit.ly/KissanRakshak)
+* App Link : [Download Here](https://bit.ly/KissanRakshak) <br>
+![KisanRakshak](https://user-images.githubusercontent.com/52796258/138211549-a6241b44-2d9c-4d7e-9684-1f537b760126.png)
 * Youtube Demo : [Video Demo](https://youtu.be/y-l8Hd6q7lw)
 
 ##### References(APIs Used) : 
