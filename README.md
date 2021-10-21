@@ -97,7 +97,7 @@ Abhigyan Singh
 Naman Jain
 
 <p align="center">
-<img src = "https://camo.githubusercontent.com/fb221b293c274122307bad7c122264807800a10eaef21f2cf0a005499cc6d333/68747470733a2f2f726567696d626f6f6b2e6e65746c6966792e6170702f65737461727475702f65537461727475702f494d475f32303231303432385f3139303734382e6a7067"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+<img src = "https://avatars.githubusercontent.com/u/77778261?v=4"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
 </p>
 <p align="center">
 <a href = "https://github.com/namannj15"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
