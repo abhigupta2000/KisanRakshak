@@ -2,10 +2,8 @@
 Entry of Titans, from SRM Institute of Science and Technology, Kattankulathur, to Bit-by-Bit(IIIT Bhagalpur).
 
 # Update : 
-3rd Position Overall, with a **Cash Prize of ₹2500**
-
-![image](https://user-images.githubusercontent.com/52796258/138553079-37a0707b-a746-441c-8442-981e1711d679.png)
-
+3rd Position Overall, with a **Cash Prize of ₹2500**<br>
+<img src="https://user-images.githubusercontent.com/52796258/138553079-37a0707b-a746-441c-8442-981e1711d679.png" alt="image" width=300 /><br>
 <p align="left"><img width=25% src="Assets/Titans.jpg"></p>
 
 
